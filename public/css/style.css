@@ -1,0 +1,82 @@
+body {
+    font-family: Helvetica;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.bg-aliceblue {
+    background-color: #f1f3ff;
+}
+.bg-button {
+    background-color: #5cb85f!important;
+}
+.bg-primary-darkblue {
+    background-color: #0d28a6;
+}
+.text-primary-darkblue{
+    color: #0d28a6;
+}
+.nav-item{
+    margin-left: 32px;
+}
+.nav-link:hover{
+    background-color: grey;
+    color: white;
+    transition: all 0.5s;
+}
+.card-1:hover{
+    background-color: lightyellow;
+    transition: all 0.5s;
+}
+.card-2:hover{
+    background-color: pink;
+    transition: all 0.5s;
+}
+.card-3:hover{
+    background-color: lightblue;
+    transition: all 0.5s;
+}
+.card-4:hover{
+    background-color: lightgreen;
+    transition: all 0.5s;
+}
+
+
+.carousel-item{
+    transition: all 0.5s;
+}
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+}
+.testimonial-rating {
+    max-height: 16px;
+}
+.testimonial-name {
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    line-height: 0px;
+}
+.testimonial-media {
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 50%;
+}
+.testimonial-media:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+@media only screen and (max-width: 992px) {
+    .offcanvas{
+        transition: all 0.5s;
+    }
+}
