@@ -94,6 +94,52 @@
                         Layanan Airport Transfer / Drop In Out</p>
                 </div>
             </div> -->
+            <div class="container">
+                <div class="row justify-content-center form">
+                    <div class="col-3">
+                        <label for="tipe">Tipe Driver</label>
+                        <div class="input-group mb-3">
+                            <select class="form-select" id="inputGroupSelect01">
+                              <option selected disabled hidden>Pilih Tipe Driver</option>
+                              <option value="true">Dengan Sopir</option>
+                              <option value="false">Tanpa Sopir (Lepas Kunci)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <label for="tgl">Tanggal</label>
+                        <div class="input-group mb-3">
+                            <input id="date" class="form-control" type="date">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <label for="wkt">Waktu Jemput/Ambil</label>
+                        <div class="input-group mb-3">
+                          <input id="time" class="form-control" type="time">
+
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <label for="jml">Jumlah Penumpang (optional)</label>
+                        <div class="input-group mb-3">
+                            <input id="number" class="form-control" type="number" placeholder="Jumlah Penumpang">
+                        </div>
+                    </div>
+                    <div class="col-2"><br>
+                      <button type="submit" class="btn btn-success mb-3 find-car" id="find-car">Cari Mobil</button>
+                      <!-- <button type="submit" class="btn btn-primary mb-3 find-car" id="clear-car">Reset</button> -->
+                    </div>
+                  </div>
+            </div>
+      
+            <!-- Card Cars -->
+            <div class="container card-cars">
+              <div class="row" id="cars-container">
+                  
+                </div>
+              </div>
+            </div>
+            <!-- End Card Cars -->
             
             <!-- ini footer -->
             <footer class="text-center text-lg-start bg-light" style="margin-top: 150px;">
