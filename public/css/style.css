@@ -84,7 +84,7 @@ h2 {
     background-color: #fff;
     padding: 24px;
     margin-top: -42px;
-    z-index: 99;
+    z-index: auto;
     position: relative;
 }
 .card-cars {
