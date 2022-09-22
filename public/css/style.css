@@ -18,6 +18,8 @@ h2 {
 .text-primary-darkblue{
     color: #0d28a6;
 }
+
+/* navbar */
 .nav-item{
     margin-left: 32px;
 }
@@ -26,6 +28,8 @@ h2 {
     color: white;
     transition: all 0.5s;
 }
+
+/* index.html */
 .card-1:hover{
     background-color: lightyellow;
     transition: all 0.5s;
@@ -42,7 +46,6 @@ h2 {
     background-color: lightgreen;
     transition: all 0.5s;
 }
-
 
 .carousel-item{
     transition: all 0.5s;
@@ -75,6 +78,7 @@ h2 {
   color: white;
 }
 
+/* cars.html */
 .form {
     border-radius: 14px;
     background-color: #fff;
@@ -83,7 +87,11 @@ h2 {
     z-index: 99;
     position: relative;
 }
+.card-cars {
+    margin-top: 27px;
+}
 
+/* mobile views */
 @media only screen and (max-width: 992px) {
     .offcanvas{
         transition: all 0.5s;
