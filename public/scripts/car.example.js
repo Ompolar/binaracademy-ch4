@@ -46,10 +46,10 @@ class Car {
           <div class="card-body">
               <div class="card-text">${this.model}</div>
               <h5 class="card-title">${this.rentPerDay}</h5>
-              <div class="card-text">${this.description}</div>
-              <div class="card-text">${this.capacity}</div>
-              <div class="card-text">${this.transmission}</div>
-              <div class="card-text">${this.year}</div>
+              <p class="card-text">${this.description}</p>
+              <p class="card-text"><img src="images/user.png" alt="" width="20px" height"20px">${this.capacity}</p>
+              <p class="card-text"><img src="images/user.png" alt="" width="20px" height"20px">${this.transmission}</p>
+              <p class="card-text">${this.year}</p>
           </div>
       </div>
     `;
