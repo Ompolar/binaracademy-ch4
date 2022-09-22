@@ -41,12 +41,17 @@ class Car {
 
   render() {
     return `
-      <p>id: <b>${this.id}</b></p>
-      <p>plate: <b>${this.plate}</b></p>
-      <p>manufacture: <b>${this.manufacture}</b></p>
-      <p>model: <b>${this.model}</b></p>
-      <p>available at: <b>${this.availableAt}</b></p>
-      <img src="${this.image}" alt="${this.manufacture}" width="64px">
+      <div class="card mb-3">
+          <img src="${this.image}" class="card-img" height="300" alt="${this.manufacture}">
+          <div class="card-body">
+              <div class="card-text">${this.model}</div>
+              <h5 class="card-title">${this.rentPerDay}</h5>
+              <div class="card-text">${this.description}</div>
+              <div class="card-text">${this.capacity}</div>
+              <div class="card-text">${this.transmission}</div>
+              <div class="card-text">${this.year}</div>
+          </div>
+      </div>
     `;
   }
 }

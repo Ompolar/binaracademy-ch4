@@ -89,6 +89,7 @@ h2 {
 }
 .card-cars {
     margin-top: 27px;
+    border-width: 0px;
 }
 
 /* mobile views */
