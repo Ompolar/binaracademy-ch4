@@ -47,9 +47,9 @@ class Car {
               <div class="card-text">${this.model}</div>
               <h5 class="card-title">${this.rentPerDay}</h5>
               <p class="card-text">${this.description}</p>
-              <p class="card-text"><img src="images/user.png" alt="" width="20px" height"20px">${this.capacity}</p>
-              <p class="card-text"><img src="images/user.png" alt="" width="20px" height"20px">${this.transmission}</p>
-              <p class="card-text">${this.year}</p>
+              <p class="card-text"><img src="images/user.png" alt="" width="20px" height"20px"> ${this.capacity}</p>
+              <p class="card-text"><img src="images/setting.png" alt="" width="20px" height"20px"> ${this.transmission}</p>
+              <p class="card-text"><img src="images/calendar.png" alt="" width="20px" height"20px"> ${this.year}</p>
           </div>
       </div>
     `;
