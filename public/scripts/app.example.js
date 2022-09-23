@@ -50,6 +50,13 @@ class App {
     //   });
     // }
 
+    let child = this.carContainerElement.firstElementChild;
+
+    while (child) {
+      child.remove();
+      child = this.carContainerElement.firstElementChild;
+    }
+    
     Car.list.forEach((car)=>{
       let dateTime = this.date.value + "T" + this.time.value;
       let formdate = Date.parse(dateTime);
@@ -61,6 +68,7 @@ class App {
       }else{
         driver = false;
       }
+
 
       if (car['available'] == driver && time >= formdate && car['capacity'] >= jml){
         const node = document.createElement("div");
